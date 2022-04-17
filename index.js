@@ -1,11 +1,12 @@
 let count = document.getElementById("general-input").value;
-let feet = 3.28
-let meeter = 1
 let meeterResult = document.getElementById("meter-para");
 let volumeResult = document.getElementById("litre-para")
 let massResult = document.getElementById("kilo-para")
+let feet = 3.28
+let meeter = 1
 let pound = 0.453
 let kg = 2.204 
+
 
 let gallon = 4
 let litre = 1
@@ -28,3 +29,10 @@ function mass() {
     console.log(massResult)
 }
 mass()
+
+function input() {
+    let value = document.getElementById("general-input").value;
+    console.log(value)
+}
+
+input()
